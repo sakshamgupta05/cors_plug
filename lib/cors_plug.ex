@@ -18,7 +18,11 @@ defmodule CORSPlug do
         "Keep-Alive",
         "X-Requested-With",
         "If-Modified-Since",
-        "X-CSRF-Token"
+        "X-CSRF-Token",
+        "Access-Token",
+        "Client",
+        "Token-Type",
+        "Uid"
       ],
       expose: [],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
