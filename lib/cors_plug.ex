@@ -23,7 +23,8 @@ defmodule CORSPlug do
         "Client",
         "Token-Type",
         "Uid",
-        "override_session"
+        "override_session",
+        "x-no-redirect"
       ],
       expose: [],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
