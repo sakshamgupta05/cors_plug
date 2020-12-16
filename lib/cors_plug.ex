@@ -25,7 +25,8 @@ defmodule CORSPlug do
         "Uid",
         "override_session",
         "x-no-redirect",
-        "Accept-Language"
+        "Accept-Language",
+        "Accept-Encoding"
       ],
       expose: [],
       methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
